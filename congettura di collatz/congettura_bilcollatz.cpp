@@ -6,7 +6,7 @@ using namespace std;
 map<pair<int, int>, int> memoria;
 
 int bicollatz(int A, int B,int depth) {
-    if(depth>10^6) return -1;
+    if(depth>10^6) return -1;//fa solo quattro casi ovvero i rimanete di questa condizione if(depth>1000000)
     int steps = 0;
     pair<int, int> stato = {A, B};
     if (memoria.find(stato) != memoria.end()) {
