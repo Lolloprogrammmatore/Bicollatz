@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
 #include <map>
-#include <signal.h>
-#include <cstdlib>
-#include <unistd.h>
 using namespace std;
 
 map<pair<int, int>, int> memoria;
